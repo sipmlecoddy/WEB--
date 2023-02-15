@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Сердечко</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<style>
+		@keyframes run {
+			0% {
+			margin-left: 10px;	
+			margin-top: 0px;
+			}
+			50% {
+			margin-top: 0px;
+			margin-left: 1000px;
+			}
+			100% {
+			margin-top: 1000px;
+			margin-left: 1000px;
+			}
+		}
+		.box {
+			width: 120px;
+			height: 120px;
+			border: 2px solid black;
+			border-radius: 90px;
+			background-color: dodgerblue;
+			animation: run 4s infinite;
+			animation-direction: alternate;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+	</div>
+</body>
+</html>
